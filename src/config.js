@@ -1,4 +1,14 @@
-export default Object.freeze({
-  randomAPI:
-    'https://www.random.org/integers/?num=1&min=1&max=99&col=1&base=10&format=plain&rnd=new',
+import {ApolloClient, InMemoryCache, createHttpLink} from '@apollo/client';
+
+const client = new ApolloClient({
+  uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index',
+  cache: new InMemoryCache(),
+  method: 'post',
+  headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json',
+  },
+  credentials: 'omit',
 });
+
+export default client;
