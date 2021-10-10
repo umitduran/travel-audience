@@ -1,8 +1,15 @@
-# Travel Audience React-Redux-Graphql Chanllenge
+# Travel Audience React-Redux-Graphql Challenge
 
-- Some requirements and bonus points i couldn't add because it start to take more time. If you want especially, i can add
-- About Css and ui/ux design also i couldn't spend more time generally i am not good at design and css :)
-- I hope you enjoy :)
+# It could be better
+
+- Requirements could all be over
+- Bonus part could be added
+- The test could all be in working condition.
+- I used Graphql, no need for redux, I could uninstall it.
+- Of course ui/ux and css could be better.
+- Error handle could be added.
+- I could add some places to the function in the code.
+- I could have applied the clean code principles better.
 
 # Getting Started with Create React App
 

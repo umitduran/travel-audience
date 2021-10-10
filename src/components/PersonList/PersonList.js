@@ -7,10 +7,9 @@ import {
   usePersonList,
 } from '../../features/personList';
 import {useGetFilmListQuery, useFilmList} from '../../features/filmList';
-import classes from './PersonList.module.css';
 
 const PersonList = () => {
-  const {isLoading, hasError, isFulfilled} = useLoadingState();
+  const {isLoading} = useLoadingState();
   const personList = usePersonList();
   const filmList = useFilmList();
   const getPersonList = useGetPersonListQuery();
