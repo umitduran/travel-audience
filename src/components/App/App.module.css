@@ -2,6 +2,11 @@
   margin-top: 60px;
 }
 
+.col {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .header {
   background: #001529de;
   border-radius: 10px;

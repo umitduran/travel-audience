@@ -65,6 +65,7 @@ const PersonList = () => {
       title: 'BirtYear',
       dataIndex: 'birthYear',
       key: 'birthYear',
+      responsive: ['md', 'lg'],
     },
     {
       title: 'The Films (Appeared)',
