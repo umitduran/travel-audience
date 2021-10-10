@@ -11,6 +11,12 @@ const query = gql`
         node {
           id
           name
+          height
+          mass
+          hairColor
+          skinColor
+          eyeColor
+          birthYear
           gender
           filmConnection {
             edges {

@@ -6,6 +6,7 @@ import {PersonListReducer} from './features/personList';
 import {CounterReducer} from './features/counter';
 import {RandomReducer} from './features/random';
 import withProvider from './withProvider';
+import FilmListReducer from './features/filmList/FilmListReducer';
 
 /**
  * Create root reducer, containing
@@ -13,6 +14,7 @@ import withProvider from './withProvider';
  */
 const rootReducer = combineReducers({
   person: PersonListReducer,
+  film: FilmListReducer,
   count: CounterReducer,
   random: RandomReducer,
 });
